@@ -4,6 +4,7 @@
 
 body {
     background-color: #E9EDEE;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -25,7 +26,7 @@ header img {
 nav {
     background-color: #364656;
     width: 100%;
-    height: 25px;
+    height: 28px;
 }
 
 nav li {
@@ -45,5 +46,156 @@ nav a {
 
 
 /*MAIN*/
+
+
+.first-item
+{
+    text-align: center;
+    background-color: #F56600;
+    color: #E9EDEE;
+    padding: 10px;
+    margin: 30px; 
+}
+
+.gift-guides 
+{
+    background-image: url("../images/bg-image.png");
+    text-align: center;
+    height: 200px;
+    margin: 30px;
+    background-position:top;
+    background-size: auto;
+}
+
+.gift-guides  h3 {
+    color: #E9EDEE;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 60px;
+
+}
+
+.gift-guides  h6 {
+    color: #E9EDEE;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+
+
+.main-quadrant {
+    margin: 30px;
+    background-color: white;
+}
+
+
+.title-quadrant {
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    padding: 15px;
+    padding-bottom: 2px;
+}
+
+
+section h3{
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+    height: 100%;
+}
+
+section a{
+    text-decoration: none;
+    color: #205E72;
+    font-weight: bold;
+    height: 100%;
+}
+
+.multi-quadrant {
+    text-align: center;
+}
+
+
+.multi-quadrant div {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 25px;
+    box-shadow: 2px 0 10px grey;
+}
+
+.quadrant1 {
+    background-image: url("../images/img_1.jpg");
+    
+    
+}
+.quadrant2 {
+    background-image: url("../images/img_2.jpg");
+    
+}
+.quadrant3 {
+    background-image: url("../images/img_3.jpg");
+    
+}
+.quadrant4 {
+    background-image: url("../images/img_4.jpg");
+}
+
+
+
+.single-quadrant1 {
+    margin: 30px;
+    height: 500px;
+    background-image: url("../images/img_9.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+}
+
+.single-quadrant2 {
+    margin: 30px;
+    height: 500px;
+    background-image: url("../images/img_10.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+}
+
+
+.single-title{
+    text-align: center;
+
+}
+
+
+.bottom-main a{
+    text-decoration:underline;
+    color: white;
+}
+
+.bottom-main {
+    text-align: center;
+    background-color: #364659;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/*HEADER*/
+
+
+footer {
+    background-color: #222F3F;
+    text-align: center;
+}
+
+footer img {
+    padding: 40px;
+    width: 8%;
+}
 
 
