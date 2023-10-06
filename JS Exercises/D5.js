@@ -111,7 +111,7 @@ for(let i=0; i<cars.length; i++)
   }
   else
   {
-    console.log("Es.8. "+"Buzz");
+    console.log("Es.8: "+"Buzz");
   }
 }
 
@@ -126,7 +126,7 @@ let i = 0;
 
 while(numericArray[i] !== 32)
 {
-  console.log("Es.9.",numericArray[i]);
+  console.log("Es.9:",numericArray[i]);
   i++;
 }
 
@@ -138,5 +138,90 @@ while(numericArray[i] !== 32)
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
+const newCharactersArray = [];
 
-
+for (let i=0; i<charactersArray.length; i++)
+{
+  const element = charactersArray[i];
+  switch(element){
+    case "a":
+      newCharactersArray.push("1");
+      break;
+    case "b":
+        newCharactersArray.push("2");
+        break;
+    case "c":
+      newCharactersArray.push("3");
+      break;
+    case "d":
+      newCharactersArray.push("4");
+      break;
+    case "e":
+      newCharactersArray.push("5");
+      break;
+    case "f":
+      newCharactersArray.push("6");
+      break;
+    case "g":
+      newCharactersArray.push("7");
+      break;
+    case "h":
+      newCharactersArray.push("8");
+      break;
+    case "i":
+      newCharactersArray.push("9");
+      break;
+    case "j":
+      newCharactersArray.push("10");
+      break;
+    case "k":
+      newCharactersArray.push("11");
+      break;
+    case "l":
+      newCharactersArray.push("12");
+      break;
+    case "m":
+      newCharactersArray.push("13");
+      break;
+    case "n":
+      newCharactersArray.push("14");
+      break;
+    case "o":
+      newCharactersArray.push("15");
+      break;
+    case "p":
+      newCharactersArray.push("16");
+      break;
+    case "q":
+      newCharactersArray.push("17");
+      break;
+    case "r":
+      newCharactersArray.push("18");
+      break;
+    case "s":
+      newCharactersArray.push("19");
+      break;
+    case "t":
+      newCharactersArray.push("20");
+      break;
+    case "u":
+      newCharactersArray.push("21");
+      break;
+    case "v":
+      newCharactersArray.push("22");
+      break;
+    case "w":
+      newCharactersArray.push("23");
+      break;
+    case "x":
+      newCharactersArray.push("24");
+      break;
+    case "y":
+      newCharactersArray.push("25");
+      break;
+    case "z":
+      newCharactersArray.push("26");
+      break;
+  }
+}
+console.log("Es.10:",newCharactersArray);
